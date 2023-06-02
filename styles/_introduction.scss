@@ -1,0 +1,48 @@
+.introduction {
+  width: 100%;
+  background: #061a1b;
+
+  .container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 100px;
+
+    section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0;
+      gap: 30px;
+      height: 100vh;
+
+      div {
+        width: 100%;
+        color: #fff;
+
+        h3 {
+          font-family: $poppins;
+          margin-bottom: 20px;
+          font-size: 1.3rem;
+        }
+
+        p {
+          font-family: $poppins;
+          font-size: 1.1rem;
+          opacity: 0.7;
+        }
+      }
+
+      img {
+        width: 40%;
+        border-radius: 10px;
+        height: 400px;
+        object-fit: cover;
+      }
+    }
+
+    section:nth-child(2) {
+      flex-direction: row-reverse;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.text-parallax {
+  height: 100vh;
+  background-image: url(../assets/parallax-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0px 0px 20px 2px #000000a6;
+
+  .container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+
+    .text {
+      padding-top: 260px;
+      color: #fff;
+
+      h3 {
+        font-family: $poppins;
+        margin-bottom: 10px;
+        font-size: 1.3rem;
+      }
+
+      p {
+        font-family: $poppins;
+        font-size: 1.1rem;
+        opacity: 0.7;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+footer {
+  width: 100%;
+  border-top: 1px solid #072f31;
+  background: #061a1b;
+  padding: 20px 0;
+
+  h3 {
+    color: #fff;
+    font-family: $poppins;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+
+    .logo__links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo h1 {
+        font-family: $sora;
+        color: #fff;
+      }
+
+      .links ul {
+        list-style: none;
+        font-family: $poppins;
+        font-size: 1.3rem;
+        color: #fff;
+
+        li {
+          margin: 10px 0;
+
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
