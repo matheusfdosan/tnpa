@@ -24,6 +24,11 @@ main {
         flex-direction: column;
         gap: 20px;
 
+        h2 {
+          font-size: 2.5rem;
+          font-family: $sora;
+        }
+
         h3 {
           font-size: 2rem;
           font-family: $sora;
